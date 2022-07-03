@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://www.reddit.com/r/GenUsa/">AmericaScript</a></h1>
 
-![](https://raw.githubusercontent.com/DarthEggo/AmericaScript/main/images/america.png)
+![](https://raw.githubusercontent.com/DarthEggo/AmericaScript/main/america.png)
 
 <h4 align="center">AmericaScript, an ironic programming language made with unironic patriotism</h4>
 
