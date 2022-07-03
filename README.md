@@ -5,6 +5,7 @@
 <h4 align="center">AmericaScript, an ironic programming language made with unironic patriotism</h4>
 
 <h2 align="center">Usage</h2>
+<h4>copy/paste america.js into your folder</h4>
 <h4>Create a new file with the extenstion - <code>.murica</code></h4>
 <h4>Run the Compiler with <code>node america.js main</code>(or whatever you name your file)</h4>
 <h4>If you want to know the compile time, you can run <code>node america.js main time</code></h4>
