@@ -34,10 +34,10 @@ eagle(year);
 ```js
 declare year = 1776;
 if(year == 1776) {
-	eagle("Based Year");
+   eagle("Based Year");
 }
 else {
-	eagle("Normal Year");
+   eagle("Normal Year");
 }
 @Output = "Based Year"
 ```
@@ -47,7 +47,7 @@ else {
 
 ```js
 declare sum = burger(x,y) {
-	x + y;
+   x + y
 };
 eagle(sum(2,2))
 @Output = 4
@@ -59,8 +59,8 @@ eagle(sum(2,2))
 ```js
 declare i = 0;
 stars(i < 5) {
-	eagle(i);
-	i += 1;
+  eagle(i);
+  i += 1;
 }
 @Output = 1 2 3 4 5
 ```
@@ -72,21 +72,21 @@ stars(i < 5) {
    eagle(1 + 1)  @Output = 2
    eagle(1 - 1)  @Output = 0
    eagle(2 * 2)  @Output = 4
-	 eagle(1 / 2)  @Output = 0.5
+   eagle(1 / 2)  @Output = 0.5
    eagle(4 % 2)  @Output = 0
    if(true && false) {}  @False
-	 if(true || false) {}  @True
+   if(true || false) {}  @True
    if(1 < 2) {} @True
    if(1 > 2) {} @False
    if(1 <= 1) {}  @True
    if(1 >= 0) {}  @False
    if(1 == 1) {}  @True
    if(1 != 1) {}  @False
-	 @declare i = 10;
-	 i += 1 @i = 11;
-	 i -= 1 @i = 9;
-	 i *= 2 @i = 20;
-	 i /= 2 @i = 10
+   @declare i = 10;
+   i += 1 @i = 11;
+   i -= 1 @i = 9;
+   i *= 2 @i = 20;
+   i /= 2 @i = 5;
 ```
 
 
