@@ -514,7 +514,7 @@ const code = fs.readFileSync(args[0] + ".murica").toString();
 var ast = parse(TokenStream(InputStream(code)));
 globalEnv = new Environment();
 
-globalEnv.def("eagle", function(txt){ console.log(txt); });
+globalEnv.def("eagle", function(...txt){ console.log(...txt); });
 
 let time = new Date().getTime();
 //Run the Program
